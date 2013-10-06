@@ -1,0 +1,4 @@
+#ignore backup and audio files
+*.bak
+*.mp3
+*.ogg
