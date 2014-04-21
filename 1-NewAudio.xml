@@ -2,17 +2,23 @@
 <!-- Created by ModBuddy on 9/15/2013 1:52:39 AM -->
 <GameData>
 	<!-- Main Theme -->
+	<Defines>
+		<Replace>
+			<Name>LOADING_SCREEN_MUSIC_OVERRIDE</Name>
+			<Value>AS2D_MUSIC_MAIN_MENU_REDWWII</Value>
+		</Replace>
+	</Defines>
 	<Audio_Sounds>
 		<Row>
-			<SoundID>SND_MUSIC_MAIN_MENU_EXP2</SoundID>
+			<SoundID>SND_MUSIC_MAIN_MENU_REDWWII</SoundID>
 			<Filename>Hymn to Red October</Filename>
 			<LoadType>DynamicResident</LoadType>
 		</Row>
 	</Audio_Sounds>
 	<Audio_2DSounds>
 		<Row>
-			<ScriptID>AS2D_MUSIC_MAIN_MENU</ScriptID>
-			<SoundID>SND_MUSIC_MAIN_MENU_EXP2</SoundID>
+			<ScriptID>AS2D_MUSIC_MAIN_MENU_REDWWII</ScriptID>
+			<SoundID>SND_MUSIC_MAIN_MENU_REDWWII</SoundID>
 			<SoundType>GAME_MUSIC</SoundType>
 			<MinVolume>80</MinVolume>
 			<MaxVolume>80</MaxVolume>

@@ -42,6 +42,15 @@
       </Action>
     </ModActions>
     <ReloadAudioSystem>true</ReloadAudioSystem>
+    <ModBlockers>
+      <Association xmlns="">
+        <Type>Mod</Type>
+        <Name>R.E.D. WWII National Anthems</Name>
+        <Id>28510df6-b277-4ba5-808b-da0ce788def4</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+    </ModBlockers>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
